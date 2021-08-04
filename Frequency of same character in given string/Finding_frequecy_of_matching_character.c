@@ -1,8 +1,12 @@
+/*
+  input:- aabaccd
+  output:-a3b1c2d1
+*/
 #include<stdio.h>
 #define max 30
 int main(){
 	char arr[max],let;
-	int i,j,k,inc,flag=0,count;
+	int i,j,k,inc;
 	printf("Enter a String\n");
 	scanf("%[^\n]s",arr);
      for(i=0;arr[i]!='\0';++i){
